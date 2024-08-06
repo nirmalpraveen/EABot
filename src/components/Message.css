@@ -1,0 +1,17 @@
+.message-content {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .message.user .message-content {
+    background-color: #dcf8c6;
+    margin-left: auto;
+  }
+  
+  .message.bot .message-content {
+    background-color: #f1f0f0;
+    margin-right: auto;
+  }
+  
